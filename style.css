@@ -107,3 +107,159 @@ All the SCSS File in SCSS Folder of Assets Folder. You can read the doc file als
     
     width: 136px;
 }
+
+/* architectral-services-inner-page */
+.clearfixcard P{
+    color:rgb(123 139 153);
+    font-size: 14px;
+}
+.titles-cardbox{
+    border:2px solid rgb(123 139 153);
+    border-radius: .3rem;
+}
+.cardinfo-wrap{
+    padding:1rem
+}
+.img-htwdth{
+    height:438;
+    width:745;
+}
+.related-ser-offerings a{
+    margin: 5px;
+    transition: all .4s;
+    
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #eff4f8;
+    padding: 10px;
+    color: inherit;
+    border-radius: 10px;
+    float:right;
+}
+.other-samples-wrap div .clearfix {
+    padding: .5rem;
+    border: 1px solid #e1e9f0;
+    border-radius: .3rem;
+    background: #fff;
+}
+.other-samples-wrap div{
+    position: relative;
+    height: auto;
+    margin-bottom: 10px;
+}
+.imgcaption {
+    position: absolute;
+    bottom: 9px;
+    left: .5rem;
+    z-index: 1;
+    width: calc(100% - 1rem);
+    padding: 5px 20px 4px;
+    font-size: 16px;
+    color: #fff;
+    right: .5rem;
+    text-align: center;
+    background: rgb(32 39 43 / 75%);
+}
+.other-samples-wrap div .clearfix img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    animation: 500ms pmFadeIn;
+}
+.csrelatedwrap{
+    position: relative;
+  
+    padding: 50px 40px;
+    margin: 50px -40px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid #d1d7dc;
+}
+.relatedcs-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cs-blog-post {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, .08);
+    transition: border .4s ease;
+    margin: 0px 5px 0px 5px;
+    padding: 10px 10px 15px 10px;
+    height: 100%;
+}
+.cs-blog-post-thumb {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.cs-blog-post-thumb a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-post-content {
+    position: relative;
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+    height: auto;
+    display: block;
+}
+.blog-post-content a {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    color: #003d99;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    font-size: clamp(18px, 8vw, 18px);
+    line-height: 1.4;
+}
+.calltoaction{
+    background-color: #454545;
+    padding: 50px 40px;
+    margin: 50px -40px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.calltoaction-head {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+.ctabtn{
+    background: linear-gradient(to bottom, #ef7000 0%, #ff9700 100%);
+    display: inline-block;
+    padding: 8px 25px 10px;
+    letter-spacing: -1px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff !important;
+}
